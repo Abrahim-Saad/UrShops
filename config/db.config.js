@@ -9,4 +9,4 @@ const connection = mysql.createConnection({
 
 module.exports = connection;
 
-console.log("hhh);
+console.log("hhh");
