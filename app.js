@@ -11,7 +11,7 @@ let httpServer = http.createServer(async (req, res) => {
     //CORS POLICY
     const headers = {
         "Access-Control-Allow-Origin": "*",
-        "Access-Control-Allow-Methods": "OPTIONS, POST, GET",
+        "Access-Control-Allow-Methods": "OPTIONS, POST, GET, PUT, DELETE, PATCH",
         "Access-Control-Allow-Headers": "*",
         "Content-Type": "application/json"
     };
